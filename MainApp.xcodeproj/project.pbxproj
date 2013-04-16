@@ -18,17 +18,20 @@
 		C06D77EB171A682600C13E6B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C06D77EA171A682600C13E6B /* Default-568h@2x.png */; };
 		C06D77EE171A682600C13E6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D77ED171A682600C13E6B /* ViewController.m */; };
 		C06D77F1171A682600C13E6B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C06D77EF171A682600C13E6B /* ViewController.xib */; };
+		C06D77F9171A686C00C13E6B /* AvatarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D77F8171A686C00C13E6B /* AvatarView.m */; };
+		C06D77FB171B373500C13E6B /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C06D77FA171B373500C13E6B /* avatar.jpg */; };
+		C06D7800171BB36900C13E6B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06D77FF171BB36900C13E6B /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C06D77D1171A682600C13E6B /* DrawingToAWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingToAWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06D77D1171A682600C13E6B /* MainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06D77D4171A682600C13E6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C06D77D6171A682600C13E6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C06D77D8171A682600C13E6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C06D77DC171A682600C13E6B /* DrawingToAWindow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrawingToAWindow-Info.plist"; sourceTree = "<group>"; };
+		C06D77DC171A682600C13E6B /* MainApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MainApp-Info.plist"; sourceTree = "<group>"; };
 		C06D77DE171A682600C13E6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C06D77E0171A682600C13E6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C06D77E2171A682600C13E6B /* DrawingToAWindow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrawingToAWindow-Prefix.pch"; sourceTree = "<group>"; };
+		C06D77E2171A682600C13E6B /* MainApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MainApp-Prefix.pch"; sourceTree = "<group>"; };
 		C06D77E3171A682600C13E6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C06D77E4171A682600C13E6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C06D77E6171A682600C13E6B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -37,6 +40,10 @@
 		C06D77EC171A682600C13E6B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C06D77ED171A682600C13E6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C06D77F0171A682600C13E6B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C06D77F7171A686C00C13E6B /* AvatarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarView.h; sourceTree = "<group>"; };
+		C06D77F8171A686C00C13E6B /* AvatarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarView.m; sourceTree = "<group>"; };
+		C06D77FA171B373500C13E6B /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = "<group>"; };
+		C06D77FF171BB36900C13E6B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C06D7800171BB36900C13E6B /* QuartzCore.framework in Frameworks */,
 				C06D77D5171A682600C13E6B /* UIKit.framework in Frameworks */,
 				C06D77D7171A682600C13E6B /* Foundation.framework in Frameworks */,
 				C06D77D9171A682600C13E6B /* CoreGraphics.framework in Frameworks */,
@@ -56,7 +64,8 @@
 		C06D77C8171A682500C13E6B = {
 			isa = PBXGroup;
 			children = (
-				C06D77DA171A682600C13E6B /* DrawingToAWindow */,
+				C06D77FC171B373900C13E6B /* Resources */,
+				C06D77DA171A682600C13E6B /* MainApp */,
 				C06D77D3171A682600C13E6B /* Frameworks */,
 				C06D77D2171A682600C13E6B /* Products */,
 			);
@@ -65,7 +74,7 @@
 		C06D77D2171A682600C13E6B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C06D77D1171A682600C13E6B /* DrawingToAWindow.app */,
+				C06D77D1171A682600C13E6B /* MainApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +82,7 @@
 		C06D77D3171A682600C13E6B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C06D77FF171BB36900C13E6B /* QuartzCore.framework */,
 				C06D77D4171A682600C13E6B /* UIKit.framework */,
 				C06D77D6171A682600C13E6B /* Foundation.framework */,
 				C06D77D8171A682600C13E6B /* CoreGraphics.framework */,
@@ -80,7 +90,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C06D77DA171A682600C13E6B /* DrawingToAWindow */ = {
+		C06D77DA171A682600C13E6B /* MainApp */ = {
 			isa = PBXGroup;
 			children = (
 				C06D77E3171A682600C13E6B /* AppDelegate.h */,
@@ -88,18 +98,21 @@
 				C06D77EC171A682600C13E6B /* ViewController.h */,
 				C06D77ED171A682600C13E6B /* ViewController.m */,
 				C06D77EF171A682600C13E6B /* ViewController.xib */,
+				C06D77F7171A686C00C13E6B /* AvatarView.h */,
+				C06D77F8171A686C00C13E6B /* AvatarView.m */,
 				C06D77DB171A682600C13E6B /* Supporting Files */,
 			);
+			name = MainApp;
 			path = DrawingToAWindow;
 			sourceTree = "<group>";
 		};
 		C06D77DB171A682600C13E6B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C06D77DC171A682600C13E6B /* DrawingToAWindow-Info.plist */,
+				C06D77DC171A682600C13E6B /* MainApp-Info.plist */,
 				C06D77DD171A682600C13E6B /* InfoPlist.strings */,
 				C06D77E0171A682600C13E6B /* main.m */,
-				C06D77E2171A682600C13E6B /* DrawingToAWindow-Prefix.pch */,
+				C06D77E2171A682600C13E6B /* MainApp-Prefix.pch */,
 				C06D77E6171A682600C13E6B /* Default.png */,
 				C06D77E8171A682600C13E6B /* Default@2x.png */,
 				C06D77EA171A682600C13E6B /* Default-568h@2x.png */,
@@ -107,12 +120,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C06D77FC171B373900C13E6B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C06D77FA171B373500C13E6B /* avatar.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C06D77D0171A682600C13E6B /* DrawingToAWindow */ = {
+		C06D77D0171A682600C13E6B /* MainApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C06D77F4171A682600C13E6B /* Build configuration list for PBXNativeTarget "DrawingToAWindow" */;
+			buildConfigurationList = C06D77F4171A682600C13E6B /* Build configuration list for PBXNativeTarget "MainApp" */;
 			buildPhases = (
 				C06D77CD171A682600C13E6B /* Sources */,
 				C06D77CE171A682600C13E6B /* Frameworks */,
@@ -122,9 +143,9 @@
 			);
 			dependencies = (
 			);
-			name = DrawingToAWindow;
+			name = MainApp;
 			productName = DrawingToAWindow;
-			productReference = C06D77D1171A682600C13E6B /* DrawingToAWindow.app */;
+			productReference = C06D77D1171A682600C13E6B /* MainApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +157,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = badge.me;
 			};
-			buildConfigurationList = C06D77CC171A682500C13E6B /* Build configuration list for PBXProject "DrawingToAWindow" */;
+			buildConfigurationList = C06D77CC171A682500C13E6B /* Build configuration list for PBXProject "MainApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -148,7 +169,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C06D77D0171A682600C13E6B /* DrawingToAWindow */,
+				C06D77D0171A682600C13E6B /* MainApp */,
 			);
 		};
 /* End PBXProject section */
@@ -163,6 +184,7 @@
 				C06D77E9171A682600C13E6B /* Default@2x.png in Resources */,
 				C06D77EB171A682600C13E6B /* Default-568h@2x.png in Resources */,
 				C06D77F1171A682600C13E6B /* ViewController.xib in Resources */,
+				C06D77FB171B373500C13E6B /* avatar.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +198,7 @@
 				C06D77E1171A682600C13E6B /* main.m in Sources */,
 				C06D77E5171A682600C13E6B /* AppDelegate.m in Sources */,
 				C06D77EE171A682600C13E6B /* ViewController.m in Sources */,
+				C06D77F9171A686C00C13E6B /* AvatarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +284,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DrawingToAWindow/DrawingToAWindow-Prefix.pch";
-				INFOPLIST_FILE = "DrawingToAWindow/DrawingToAWindow-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "DrawingToAWindow/MainApp-Prefix.pch";
+				INFOPLIST_FILE = "DrawingToAWindow/MainApp-Info.plist";
+				PRODUCT_NAME = MainApp;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -272,9 +295,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DrawingToAWindow/DrawingToAWindow-Prefix.pch";
-				INFOPLIST_FILE = "DrawingToAWindow/DrawingToAWindow-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "DrawingToAWindow/MainApp-Prefix.pch";
+				INFOPLIST_FILE = "DrawingToAWindow/MainApp-Info.plist";
+				PRODUCT_NAME = MainApp;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -282,7 +305,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C06D77CC171A682500C13E6B /* Build configuration list for PBXProject "DrawingToAWindow" */ = {
+		C06D77CC171A682500C13E6B /* Build configuration list for PBXProject "MainApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C06D77F2171A682600C13E6B /* Debug */,
@@ -291,13 +314,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C06D77F4171A682600C13E6B /* Build configuration list for PBXNativeTarget "DrawingToAWindow" */ = {
+		C06D77F4171A682600C13E6B /* Build configuration list for PBXNativeTarget "MainApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C06D77F5171A682600C13E6B /* Debug */,
 				C06D77F6171A682600C13E6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

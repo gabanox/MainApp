@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MyQuartzView : UIView
+@interface AvatarView : UIView
 
 @end
