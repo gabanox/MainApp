@@ -12,13 +12,20 @@
 
 @implementation AppDelegate
 
+@synthesize viewController, navigationController;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    
+    navigationController = [[UINavigationController alloc]
+                            initWithRootViewController:self.viewController];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
