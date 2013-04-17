@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C021B5A8171E5F0D00534123 /* menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C021B5A6171E5F0D00534123 /* menu-icon.png */; };
+		C021B5A9171E5F0D00534123 /* menu-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C021B5A7171E5F0D00534123 /* menu-icon@2x.png */; };
 		C06D77D5171A682600C13E6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06D77D4171A682600C13E6B /* UIKit.framework */; };
 		C06D77D7171A682600C13E6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06D77D6171A682600C13E6B /* Foundation.framework */; };
 		C06D77D9171A682600C13E6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06D77D8171A682600C13E6B /* CoreGraphics.framework */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C021B5A6171E5F0D00534123 /* menu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon.png"; sourceTree = "<group>"; };
+		C021B5A7171E5F0D00534123 /* menu-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon@2x.png"; sourceTree = "<group>"; };
 		C06D77D1171A682600C13E6B /* MainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06D77D4171A682600C13E6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C06D77D6171A682600C13E6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -123,6 +127,8 @@
 		C06D77FC171B373900C13E6B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C021B5A6171E5F0D00534123 /* menu-icon.png */,
+				C021B5A7171E5F0D00534123 /* menu-icon@2x.png */,
 				C06D77FA171B373500C13E6B /* avatar.jpg */,
 			);
 			name = Resources;
@@ -185,6 +191,8 @@
 				C06D77EB171A682600C13E6B /* Default-568h@2x.png in Resources */,
 				C06D77F1171A682600C13E6B /* ViewController.xib in Resources */,
 				C06D77FB171B373500C13E6B /* avatar.jpg in Resources */,
+				C021B5A8171E5F0D00534123 /* menu-icon.png in Resources */,
+				C021B5A9171E5F0D00534123 /* menu-icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

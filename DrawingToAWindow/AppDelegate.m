@@ -19,7 +19,7 @@
     
      self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
     
-    navigationController = [[UINavigationController alloc]
+    self.navigationController = [[UINavigationController alloc]
                             initWithRootViewController:self.viewController];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];

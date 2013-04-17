@@ -18,6 +18,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    UIBarButtonItem *menuButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"menu-icon.png"] style:UIBarButtonItemStylePlain target:self action:@selector(menuAction)];
+    self.navigationItem.leftBarButtonItem = menuButton;
 }
 
+- (void) menuAction {
+    NSLog(@"menuAction pressed..");
+}
 @end
