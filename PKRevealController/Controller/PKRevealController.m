@@ -12,6 +12,7 @@
 
 #import "PKRevealController.h"
 #import "PKRevealControllerContainerView.h"
+#import "AppDelegate.h"
 
 #define DEFAULT_ANIMATION_DURATION_VALUE 0.185
 #define DEFAULT_ANIMATION_CURVE_VALUE UIViewAnimationCurveLinear
@@ -406,6 +407,15 @@ NSString * const PKRevealControllerRecognizesResetTapOnFrontViewKey = @"PKReveal
     [self setupTapGestureRecognizer];
     
     [self addFrontViewControllerToHierarchy];
+    
+    UIBarButtonItem *menuButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"menu-icon.png"] style:UIBarButtonItemStylePlain target:self action:@selector(menuAction)];
+    self.navigationItem.leftBarButtonItem = menuButton;
+}
+
+- (void) menuAction {
+    NSLog(@"menuAction pressed..");
+    
+    [self showViewController:self.leftViewController];
 }
 
 #pragma mark - View Lifecycle (Controller)

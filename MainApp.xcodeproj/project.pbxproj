@@ -9,6 +9,23 @@
 /* Begin PBXBuildFile section */
 		C021B5A8171E5F0D00534123 /* menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C021B5A6171E5F0D00534123 /* menu-icon.png */; };
 		C021B5A9171E5F0D00534123 /* menu-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C021B5A7171E5F0D00534123 /* menu-icon@2x.png */; };
+		C03FC48F17277B1200B96DB7 /* PKRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03FC47317277B1200B96DB7 /* PKRevealController.m */; };
+		C03FC49017277B1200B96DB7 /* PKRevealControllerContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C03FC47517277B1200B96DB7 /* PKRevealControllerContainerView.m */; };
+		C03FC49117277B1200B96DB7 /* UIViewController+PKRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03FC47717277B1200B96DB7 /* UIViewController+PKRevealController.m */; };
+		C03FC49217277B1200B96DB7 /* FrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03FC47A17277B1200B96DB7 /* FrontViewController.m */; };
+		C03FC49317277B1200B96DB7 /* LeftDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03FC47C17277B1200B96DB7 /* LeftDemoViewController.m */; };
+		C03FC49417277B1200B96DB7 /* LeftDemoViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C03FC47D17277B1200B96DB7 /* LeftDemoViewController~ipad.xib */; };
+		C03FC49517277B1200B96DB7 /* LeftDemoViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C03FC47E17277B1200B96DB7 /* LeftDemoViewController~iphone.xib */; };
+		C03FC49617277B1200B96DB7 /* RightDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03FC48017277B1200B96DB7 /* RightDemoViewController.m */; };
+		C03FC49717277B1200B96DB7 /* RightDemoViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C03FC48117277B1200B96DB7 /* RightDemoViewController~ipad.xib */; };
+		C03FC49817277B1200B96DB7 /* RightDemoViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C03FC48217277B1200B96DB7 /* RightDemoViewController~iphone.xib */; };
+		C03FC49917277B1200B96DB7 /* PKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C03FC48417277B1200B96DB7 /* PKAppDelegate.m */; };
+		C03FC49D17277B1200B96DB7 /* reveal_menu_icon_landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = C03FC48B17277B1200B96DB7 /* reveal_menu_icon_landscape.png */; };
+		C03FC49E17277B1200B96DB7 /* reveal_menu_icon_landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C03FC48C17277B1200B96DB7 /* reveal_menu_icon_landscape@2x.png */; };
+		C03FC49F17277B1200B96DB7 /* reveal_menu_icon_portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = C03FC48D17277B1200B96DB7 /* reveal_menu_icon_portrait.png */; };
+		C03FC4A017277B1200B96DB7 /* reveal_menu_icon_portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C03FC48E17277B1200B96DB7 /* reveal_menu_icon_portrait@2x.png */; };
+		C03FC4A41728CCEF00B96DB7 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03FC4A21728CCEF00B96DB7 /* LeftViewController.m */; };
+		C03FC4A51728CCEF00B96DB7 /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C03FC4A31728CCEF00B96DB7 /* LeftViewController.xib */; };
 		C06D77D5171A682600C13E6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06D77D4171A682600C13E6B /* UIKit.framework */; };
 		C06D77D7171A682600C13E6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06D77D6171A682600C13E6B /* Foundation.framework */; };
 		C06D77D9171A682600C13E6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06D77D8171A682600C13E6B /* CoreGraphics.framework */; };
@@ -23,29 +40,36 @@
 		C06D77F9171A686C00C13E6B /* AvatarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D77F8171A686C00C13E6B /* AvatarView.m */; };
 		C06D77FB171B373500C13E6B /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C06D77FA171B373500C13E6B /* avatar.jpg */; };
 		C06D7800171BB36900C13E6B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06D77FF171BB36900C13E6B /* QuartzCore.framework */; };
-		C0FAD7D41723B6AF004804A7 /* PKRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FAD7B81723B6AF004804A7 /* PKRevealController.m */; };
-		C0FAD7D51723B6AF004804A7 /* PKRevealControllerContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FAD7BA1723B6AF004804A7 /* PKRevealControllerContainerView.m */; };
-		C0FAD7D61723B6AF004804A7 /* UIViewController+PKRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FAD7BC1723B6AF004804A7 /* UIViewController+PKRevealController.m */; };
-		C0FAD7D71723B6AF004804A7 /* FrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FAD7BF1723B6AF004804A7 /* FrontViewController.m */; };
-		C0FAD7D81723B6AF004804A7 /* LeftDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FAD7C11723B6AF004804A7 /* LeftDemoViewController.m */; };
-		C0FAD7D91723B6AF004804A7 /* LeftDemoViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0FAD7C21723B6AF004804A7 /* LeftDemoViewController~ipad.xib */; };
-		C0FAD7DA1723B6AF004804A7 /* LeftDemoViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0FAD7C31723B6AF004804A7 /* LeftDemoViewController~iphone.xib */; };
-		C0FAD7DB1723B6AF004804A7 /* RightDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FAD7C51723B6AF004804A7 /* RightDemoViewController.m */; };
-		C0FAD7DC1723B6AF004804A7 /* RightDemoViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0FAD7C61723B6AF004804A7 /* RightDemoViewController~ipad.xib */; };
-		C0FAD7DD1723B6AF004804A7 /* RightDemoViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0FAD7C71723B6AF004804A7 /* RightDemoViewController~iphone.xib */; };
-		C0FAD7DE1723B6AF004804A7 /* PKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FAD7C91723B6AF004804A7 /* PKAppDelegate.m */; };
-		C0FAD7DF1723B6AF004804A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0FAD7CB1723B6AF004804A7 /* InfoPlist.strings */; };
-		C0FAD7E01723B6AF004804A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FAD7CD1723B6AF004804A7 /* main.m */; };
-		C0FAD7E11723B6AF004804A7 /* PKRevealController-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0FAD7CE1723B6AF004804A7 /* PKRevealController-Info.plist */; };
-		C0FAD7E21723B6AF004804A7 /* reveal_menu_icon_landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FAD7D01723B6AF004804A7 /* reveal_menu_icon_landscape.png */; };
-		C0FAD7E31723B6AF004804A7 /* reveal_menu_icon_landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FAD7D11723B6AF004804A7 /* reveal_menu_icon_landscape@2x.png */; };
-		C0FAD7E41723B6AF004804A7 /* reveal_menu_icon_portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FAD7D21723B6AF004804A7 /* reveal_menu_icon_portrait.png */; };
-		C0FAD7E51723B6AF004804A7 /* reveal_menu_icon_portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0FAD7D31723B6AF004804A7 /* reveal_menu_icon_portrait@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C021B5A6171E5F0D00534123 /* menu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon.png"; sourceTree = "<group>"; };
 		C021B5A7171E5F0D00534123 /* menu-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon@2x.png"; sourceTree = "<group>"; };
+		C03FC47217277B1200B96DB7 /* PKRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKRevealController.h; sourceTree = "<group>"; };
+		C03FC47317277B1200B96DB7 /* PKRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKRevealController.m; sourceTree = "<group>"; };
+		C03FC47417277B1200B96DB7 /* PKRevealControllerContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKRevealControllerContainerView.h; sourceTree = "<group>"; };
+		C03FC47517277B1200B96DB7 /* PKRevealControllerContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKRevealControllerContainerView.m; sourceTree = "<group>"; };
+		C03FC47617277B1200B96DB7 /* UIViewController+PKRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PKRevealController.h"; sourceTree = "<group>"; };
+		C03FC47717277B1200B96DB7 /* UIViewController+PKRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PKRevealController.m"; sourceTree = "<group>"; };
+		C03FC47917277B1200B96DB7 /* FrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontViewController.h; sourceTree = "<group>"; };
+		C03FC47A17277B1200B96DB7 /* FrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontViewController.m; sourceTree = "<group>"; };
+		C03FC47B17277B1200B96DB7 /* LeftDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftDemoViewController.h; sourceTree = "<group>"; };
+		C03FC47C17277B1200B96DB7 /* LeftDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftDemoViewController.m; sourceTree = "<group>"; };
+		C03FC47D17277B1200B96DB7 /* LeftDemoViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "LeftDemoViewController~ipad.xib"; sourceTree = "<group>"; };
+		C03FC47E17277B1200B96DB7 /* LeftDemoViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "LeftDemoViewController~iphone.xib"; sourceTree = "<group>"; };
+		C03FC47F17277B1200B96DB7 /* RightDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightDemoViewController.h; sourceTree = "<group>"; };
+		C03FC48017277B1200B96DB7 /* RightDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightDemoViewController.m; sourceTree = "<group>"; };
+		C03FC48117277B1200B96DB7 /* RightDemoViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "RightDemoViewController~ipad.xib"; sourceTree = "<group>"; };
+		C03FC48217277B1200B96DB7 /* RightDemoViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "RightDemoViewController~iphone.xib"; sourceTree = "<group>"; };
+		C03FC48317277B1200B96DB7 /* PKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKAppDelegate.h; sourceTree = "<group>"; };
+		C03FC48417277B1200B96DB7 /* PKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKAppDelegate.m; sourceTree = "<group>"; };
+		C03FC48B17277B1200B96DB7 /* reveal_menu_icon_landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reveal_menu_icon_landscape.png; sourceTree = "<group>"; };
+		C03FC48C17277B1200B96DB7 /* reveal_menu_icon_landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal_menu_icon_landscape@2x.png"; sourceTree = "<group>"; };
+		C03FC48D17277B1200B96DB7 /* reveal_menu_icon_portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reveal_menu_icon_portrait.png; sourceTree = "<group>"; };
+		C03FC48E17277B1200B96DB7 /* reveal_menu_icon_portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal_menu_icon_portrait@2x.png"; sourceTree = "<group>"; };
+		C03FC4A11728CCEF00B96DB7 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		C03FC4A21728CCEF00B96DB7 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		C03FC4A31728CCEF00B96DB7 /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
 		C06D77D1171A682600C13E6B /* MainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06D77D4171A682600C13E6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C06D77D6171A682600C13E6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,32 +90,6 @@
 		C06D77F8171A686C00C13E6B /* AvatarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarView.m; sourceTree = "<group>"; };
 		C06D77FA171B373500C13E6B /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = "<group>"; };
 		C06D77FF171BB36900C13E6B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		C0FAD7B71723B6AF004804A7 /* PKRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKRevealController.h; sourceTree = "<group>"; };
-		C0FAD7B81723B6AF004804A7 /* PKRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKRevealController.m; sourceTree = "<group>"; };
-		C0FAD7B91723B6AF004804A7 /* PKRevealControllerContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKRevealControllerContainerView.h; sourceTree = "<group>"; };
-		C0FAD7BA1723B6AF004804A7 /* PKRevealControllerContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKRevealControllerContainerView.m; sourceTree = "<group>"; };
-		C0FAD7BB1723B6AF004804A7 /* UIViewController+PKRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PKRevealController.h"; sourceTree = "<group>"; };
-		C0FAD7BC1723B6AF004804A7 /* UIViewController+PKRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PKRevealController.m"; sourceTree = "<group>"; };
-		C0FAD7BE1723B6AF004804A7 /* FrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontViewController.h; sourceTree = "<group>"; };
-		C0FAD7BF1723B6AF004804A7 /* FrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontViewController.m; sourceTree = "<group>"; };
-		C0FAD7C01723B6AF004804A7 /* LeftDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftDemoViewController.h; sourceTree = "<group>"; };
-		C0FAD7C11723B6AF004804A7 /* LeftDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftDemoViewController.m; sourceTree = "<group>"; };
-		C0FAD7C21723B6AF004804A7 /* LeftDemoViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "LeftDemoViewController~ipad.xib"; sourceTree = "<group>"; };
-		C0FAD7C31723B6AF004804A7 /* LeftDemoViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "LeftDemoViewController~iphone.xib"; sourceTree = "<group>"; };
-		C0FAD7C41723B6AF004804A7 /* RightDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightDemoViewController.h; sourceTree = "<group>"; };
-		C0FAD7C51723B6AF004804A7 /* RightDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightDemoViewController.m; sourceTree = "<group>"; };
-		C0FAD7C61723B6AF004804A7 /* RightDemoViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "RightDemoViewController~ipad.xib"; sourceTree = "<group>"; };
-		C0FAD7C71723B6AF004804A7 /* RightDemoViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "RightDemoViewController~iphone.xib"; sourceTree = "<group>"; };
-		C0FAD7C81723B6AF004804A7 /* PKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKAppDelegate.h; sourceTree = "<group>"; };
-		C0FAD7C91723B6AF004804A7 /* PKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKAppDelegate.m; sourceTree = "<group>"; };
-		C0FAD7CC1723B6AF004804A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C0FAD7CD1723B6AF004804A7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C0FAD7CE1723B6AF004804A7 /* PKRevealController-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PKRevealController-Info.plist"; sourceTree = "<group>"; };
-		C0FAD7CF1723B6AF004804A7 /* PKRevealController-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PKRevealController-Prefix.pch"; sourceTree = "<group>"; };
-		C0FAD7D01723B6AF004804A7 /* reveal_menu_icon_landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reveal_menu_icon_landscape.png; sourceTree = "<group>"; };
-		C0FAD7D11723B6AF004804A7 /* reveal_menu_icon_landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal_menu_icon_landscape@2x.png"; sourceTree = "<group>"; };
-		C0FAD7D21723B6AF004804A7 /* reveal_menu_icon_portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reveal_menu_icon_portrait.png; sourceTree = "<group>"; };
-		C0FAD7D31723B6AF004804A7 /* reveal_menu_icon_portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal_menu_icon_portrait@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,10 +107,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C03FC47017277B1200B96DB7 /* PKRevealController */ = {
+			isa = PBXGroup;
+			children = (
+				C03FC47117277B1200B96DB7 /* Controller */,
+				C03FC47817277B1200B96DB7 /* Demo Classes */,
+				C03FC48317277B1200B96DB7 /* PKAppDelegate.h */,
+				C03FC48417277B1200B96DB7 /* PKAppDelegate.m */,
+				C03FC48517277B1200B96DB7 /* Supporting Files */,
+			);
+			path = PKRevealController;
+			sourceTree = "<group>";
+		};
+		C03FC47117277B1200B96DB7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C03FC47217277B1200B96DB7 /* PKRevealController.h */,
+				C03FC47317277B1200B96DB7 /* PKRevealController.m */,
+				C03FC47417277B1200B96DB7 /* PKRevealControllerContainerView.h */,
+				C03FC47517277B1200B96DB7 /* PKRevealControllerContainerView.m */,
+				C03FC47617277B1200B96DB7 /* UIViewController+PKRevealController.h */,
+				C03FC47717277B1200B96DB7 /* UIViewController+PKRevealController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C03FC47817277B1200B96DB7 /* Demo Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C03FC47917277B1200B96DB7 /* FrontViewController.h */,
+				C03FC47A17277B1200B96DB7 /* FrontViewController.m */,
+				C03FC47B17277B1200B96DB7 /* LeftDemoViewController.h */,
+				C03FC47C17277B1200B96DB7 /* LeftDemoViewController.m */,
+				C03FC47D17277B1200B96DB7 /* LeftDemoViewController~ipad.xib */,
+				C03FC47E17277B1200B96DB7 /* LeftDemoViewController~iphone.xib */,
+				C03FC47F17277B1200B96DB7 /* RightDemoViewController.h */,
+				C03FC48017277B1200B96DB7 /* RightDemoViewController.m */,
+				C03FC48117277B1200B96DB7 /* RightDemoViewController~ipad.xib */,
+				C03FC48217277B1200B96DB7 /* RightDemoViewController~iphone.xib */,
+			);
+			path = "Demo Classes";
+			sourceTree = "<group>";
+		};
+		C03FC48517277B1200B96DB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C03FC48B17277B1200B96DB7 /* reveal_menu_icon_landscape.png */,
+				C03FC48C17277B1200B96DB7 /* reveal_menu_icon_landscape@2x.png */,
+				C03FC48D17277B1200B96DB7 /* reveal_menu_icon_portrait.png */,
+				C03FC48E17277B1200B96DB7 /* reveal_menu_icon_portrait@2x.png */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		C06D77C8171A682500C13E6B = {
 			isa = PBXGroup;
 			children = (
-				C0FAD7B51723B6AF004804A7 /* PKRevealController */,
+				C03FC47017277B1200B96DB7 /* PKRevealController */,
 				C06D77FC171B373900C13E6B /* Resources */,
 				C06D77DA171A682600C13E6B /* MainApp */,
 				C06D77D3171A682600C13E6B /* Frameworks */,
@@ -142,6 +193,9 @@
 		C06D77DA171A682600C13E6B /* MainApp */ = {
 			isa = PBXGroup;
 			children = (
+				C03FC4A11728CCEF00B96DB7 /* LeftViewController.h */,
+				C03FC4A21728CCEF00B96DB7 /* LeftViewController.m */,
+				C03FC4A31728CCEF00B96DB7 /* LeftViewController.xib */,
 				C06D77E3171A682600C13E6B /* AppDelegate.h */,
 				C06D77E4171A682600C13E6B /* AppDelegate.m */,
 				C06D77EC171A682600C13E6B /* ViewController.h */,
@@ -177,63 +231,6 @@
 				C06D77FA171B373500C13E6B /* avatar.jpg */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		C0FAD7B51723B6AF004804A7 /* PKRevealController */ = {
-			isa = PBXGroup;
-			children = (
-				C0FAD7B61723B6AF004804A7 /* Controller */,
-				C0FAD7BD1723B6AF004804A7 /* Demo Classes */,
-				C0FAD7C81723B6AF004804A7 /* PKAppDelegate.h */,
-				C0FAD7C91723B6AF004804A7 /* PKAppDelegate.m */,
-				C0FAD7CA1723B6AF004804A7 /* Supporting Files */,
-			);
-			path = PKRevealController;
-			sourceTree = "<group>";
-		};
-		C0FAD7B61723B6AF004804A7 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				C0FAD7B71723B6AF004804A7 /* PKRevealController.h */,
-				C0FAD7B81723B6AF004804A7 /* PKRevealController.m */,
-				C0FAD7B91723B6AF004804A7 /* PKRevealControllerContainerView.h */,
-				C0FAD7BA1723B6AF004804A7 /* PKRevealControllerContainerView.m */,
-				C0FAD7BB1723B6AF004804A7 /* UIViewController+PKRevealController.h */,
-				C0FAD7BC1723B6AF004804A7 /* UIViewController+PKRevealController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		C0FAD7BD1723B6AF004804A7 /* Demo Classes */ = {
-			isa = PBXGroup;
-			children = (
-				C0FAD7BE1723B6AF004804A7 /* FrontViewController.h */,
-				C0FAD7BF1723B6AF004804A7 /* FrontViewController.m */,
-				C0FAD7C01723B6AF004804A7 /* LeftDemoViewController.h */,
-				C0FAD7C11723B6AF004804A7 /* LeftDemoViewController.m */,
-				C0FAD7C21723B6AF004804A7 /* LeftDemoViewController~ipad.xib */,
-				C0FAD7C31723B6AF004804A7 /* LeftDemoViewController~iphone.xib */,
-				C0FAD7C41723B6AF004804A7 /* RightDemoViewController.h */,
-				C0FAD7C51723B6AF004804A7 /* RightDemoViewController.m */,
-				C0FAD7C61723B6AF004804A7 /* RightDemoViewController~ipad.xib */,
-				C0FAD7C71723B6AF004804A7 /* RightDemoViewController~iphone.xib */,
-			);
-			path = "Demo Classes";
-			sourceTree = "<group>";
-		};
-		C0FAD7CA1723B6AF004804A7 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C0FAD7CB1723B6AF004804A7 /* InfoPlist.strings */,
-				C0FAD7CD1723B6AF004804A7 /* main.m */,
-				C0FAD7CE1723B6AF004804A7 /* PKRevealController-Info.plist */,
-				C0FAD7CF1723B6AF004804A7 /* PKRevealController-Prefix.pch */,
-				C0FAD7D01723B6AF004804A7 /* reveal_menu_icon_landscape.png */,
-				C0FAD7D11723B6AF004804A7 /* reveal_menu_icon_landscape@2x.png */,
-				C0FAD7D21723B6AF004804A7 /* reveal_menu_icon_portrait.png */,
-				C0FAD7D31723B6AF004804A7 /* reveal_menu_icon_portrait@2x.png */,
-			);
-			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,16 +292,15 @@
 				C06D77FB171B373500C13E6B /* avatar.jpg in Resources */,
 				C021B5A8171E5F0D00534123 /* menu-icon.png in Resources */,
 				C021B5A9171E5F0D00534123 /* menu-icon@2x.png in Resources */,
-				C0FAD7D91723B6AF004804A7 /* LeftDemoViewController~ipad.xib in Resources */,
-				C0FAD7DA1723B6AF004804A7 /* LeftDemoViewController~iphone.xib in Resources */,
-				C0FAD7DC1723B6AF004804A7 /* RightDemoViewController~ipad.xib in Resources */,
-				C0FAD7DD1723B6AF004804A7 /* RightDemoViewController~iphone.xib in Resources */,
-				C0FAD7DF1723B6AF004804A7 /* InfoPlist.strings in Resources */,
-				C0FAD7E11723B6AF004804A7 /* PKRevealController-Info.plist in Resources */,
-				C0FAD7E21723B6AF004804A7 /* reveal_menu_icon_landscape.png in Resources */,
-				C0FAD7E31723B6AF004804A7 /* reveal_menu_icon_landscape@2x.png in Resources */,
-				C0FAD7E41723B6AF004804A7 /* reveal_menu_icon_portrait.png in Resources */,
-				C0FAD7E51723B6AF004804A7 /* reveal_menu_icon_portrait@2x.png in Resources */,
+				C03FC49417277B1200B96DB7 /* LeftDemoViewController~ipad.xib in Resources */,
+				C03FC49517277B1200B96DB7 /* LeftDemoViewController~iphone.xib in Resources */,
+				C03FC49717277B1200B96DB7 /* RightDemoViewController~ipad.xib in Resources */,
+				C03FC49817277B1200B96DB7 /* RightDemoViewController~iphone.xib in Resources */,
+				C03FC49D17277B1200B96DB7 /* reveal_menu_icon_landscape.png in Resources */,
+				C03FC49E17277B1200B96DB7 /* reveal_menu_icon_landscape@2x.png in Resources */,
+				C03FC49F17277B1200B96DB7 /* reveal_menu_icon_portrait.png in Resources */,
+				C03FC4A017277B1200B96DB7 /* reveal_menu_icon_portrait@2x.png in Resources */,
+				C03FC4A51728CCEF00B96DB7 /* LeftViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,14 +315,14 @@
 				C06D77E5171A682600C13E6B /* AppDelegate.m in Sources */,
 				C06D77EE171A682600C13E6B /* ViewController.m in Sources */,
 				C06D77F9171A686C00C13E6B /* AvatarView.m in Sources */,
-				C0FAD7D41723B6AF004804A7 /* PKRevealController.m in Sources */,
-				C0FAD7D51723B6AF004804A7 /* PKRevealControllerContainerView.m in Sources */,
-				C0FAD7D61723B6AF004804A7 /* UIViewController+PKRevealController.m in Sources */,
-				C0FAD7D71723B6AF004804A7 /* FrontViewController.m in Sources */,
-				C0FAD7D81723B6AF004804A7 /* LeftDemoViewController.m in Sources */,
-				C0FAD7DB1723B6AF004804A7 /* RightDemoViewController.m in Sources */,
-				C0FAD7DE1723B6AF004804A7 /* PKAppDelegate.m in Sources */,
-				C0FAD7E01723B6AF004804A7 /* main.m in Sources */,
+				C03FC48F17277B1200B96DB7 /* PKRevealController.m in Sources */,
+				C03FC49017277B1200B96DB7 /* PKRevealControllerContainerView.m in Sources */,
+				C03FC49117277B1200B96DB7 /* UIViewController+PKRevealController.m in Sources */,
+				C03FC49217277B1200B96DB7 /* FrontViewController.m in Sources */,
+				C03FC49317277B1200B96DB7 /* LeftDemoViewController.m in Sources */,
+				C03FC49617277B1200B96DB7 /* RightDemoViewController.m in Sources */,
+				C03FC49917277B1200B96DB7 /* PKAppDelegate.m in Sources */,
+				C03FC4A41728CCEF00B96DB7 /* LeftViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,14 +343,6 @@
 				C06D77F0171A682600C13E6B /* en */,
 			);
 			name = ViewController.xib;
-			sourceTree = "<group>";
-		};
-		C0FAD7CB1723B6AF004804A7 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C0FAD7CC1723B6AF004804A7 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -423,6 +411,7 @@
 				GCC_PREFIX_HEADER = "DrawingToAWindow/MainApp-Prefix.pch";
 				INFOPLIST_FILE = "DrawingToAWindow/MainApp-Info.plist";
 				PRODUCT_NAME = MainApp;
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -434,6 +423,7 @@
 				GCC_PREFIX_HEADER = "DrawingToAWindow/MainApp-Prefix.pch";
 				INFOPLIST_FILE = "DrawingToAWindow/MainApp-Info.plist";
 				PRODUCT_NAME = MainApp;
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

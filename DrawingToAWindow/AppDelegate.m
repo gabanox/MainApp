@@ -9,21 +9,31 @@
 #import "AppDelegate.h"
 
 #import "ViewController.h"
+#import "PKRevealController.h"
+#import "LeftViewController.h"
 
 @implementation AppDelegate
 
-@synthesize viewController, navigationController;
+
+@synthesize viewController, navigationController, compositeViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
-     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    
+    self.leftViewController = [[LeftViewController alloc] initWithNibName:@"LeftViewController" bundle:nil];
+        
+    self.compositeViewController = [PKRevealController
+                                           revealControllerWithFrontViewController:self.viewController
+                                           leftViewController:self.leftViewController
+                                           options:nil];
     
     self.navigationController = [[UINavigationController alloc]
-                            initWithRootViewController:self.viewController];
-    
+                                 initWithRootViewController:compositeViewController];
+
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.rootViewController = navigationController;
+    self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
     
     return YES;
